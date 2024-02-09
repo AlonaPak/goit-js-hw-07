@@ -1,0 +1,68 @@
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#controls {
+  display: flex;
+  padding: 32px;
+  width: 486px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+#controls input[type="number"] {
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls .create-button,
+#controls .destroy-button {
+  display: flex;
+  width: 152px;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+#controls .create-button {
+  background: #4e75ff;
+  color: #fff;
+}
+
+#controls .destroy-button {
+  background: #ff4e4e;
+  color: #fff;
+}
+
+#controls .destroy-button.hover-effect {
+  background: #ff7070;
+}
